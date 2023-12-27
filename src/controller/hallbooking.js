@@ -13,53 +13,53 @@ let rooms = [{
 ];
 
 let bookings = [{
-    customer: "maha",
+    customer: "poovarasi",
     bookingDate: "17/10/2023",
     startTime: "12:00pm",
     endTime: "11:59am",
     bookingID: "B1",
     roomId: "0",
     status: "booked",
-    booked_On: "15/10/2023"
+    booked_On: "11/10/2023"
 },
 {
-    customer: "lakshmi",
+    customer: "priyu",
     bookingDate: "18/10/2023",
     startTime: "12:00pm",
     endTime: "11:59am",
     bookingID: "B2",
     roomId: "1",
     status: "booked",
-    booked_On: "15/10/2023"
+    booked_On: "11/10/2023"
 }
 ];
 let customers = [
-    { name: 'maha',
+    { name: 'poovarasi',
      bookings: [ 
         {
-            customer: 'maha',
+            customer: 'poovarasi',
             bookingDate: '17/10/2023',
             startTime: '12:00pm',
             endTime: '11:59am',
             bookingID: 'B1',
             roomId: '0',
             status: 'booked',
-            booked_On: '3/7/2023'
+            booked_On: '11/10/2023'
           }
       ] },
       {
-         name: 'lakshmi',
+         name: 'priyu',
         bookings: [ 
            {
-               customer: 'lakshmi',
-               bookingDate: '18/10/2023',
-               startTime: '12:00pm',
-               endTime: '11:59am',
-               bookingID: 'B2',
-               roomId: '1',
-               status: 'booked',
-               booked_On: '3/7/2023'
-             }
+            customer: 'priyu',
+            bookingDate: '18/10/2023',
+            startTime: '12:00pm',
+            endTime: '11:59am',
+            bookingID: 'B2',
+            roomId: '1',
+            status: 'booked',
+            booked_On: '11/10/2023'
+            }
          ] }     
 ];
 
